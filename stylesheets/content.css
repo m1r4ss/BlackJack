@@ -3,7 +3,7 @@ body {
 
 }
 body {
-  background: black url("/images/Group 1.svg");
+  background: black url("../images/Group 1.svg");
   background-repeat: repeat-y;
   margin: 0;
   padding: 0;
