@@ -2,10 +2,7 @@ $(document).ready(function() {
     $('#question1').on('click', function () {
         $('#viewDetails').toggle(1000)
     })
-})
-
-$(document).ready(function () {
-    $('#start1').on('click', function () {
+     $('#start1').on('click', function () {
         $('#welcomeScreen').toggle(0)
     })
 })
