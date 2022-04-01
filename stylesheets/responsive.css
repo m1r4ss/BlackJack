@@ -1,0 +1,375 @@
+@media (min-width:1366px) and (max-width:1440px) {
+    body {
+        max-height: 900px;
+        max-width: 1440px;
+    }
+    .row3{
+        position: relative;
+        top: 30vh;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+    .header {
+        font-size: 50px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    #viewDetails {
+        left: 6vw;
+    }
+    .ss1 {
+        padding-right: 5vw;
+    }
+}
+@media (min-width:1024px) and (max-width:1366px) {
+    body {
+        max-height: 768px;
+        max-width: 1366px;
+    }
+    .ss1 {
+        padding-right: 5vw;
+    }
+    .row3{
+        position: relative;
+        top: 24vh;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+    .header {
+        font-size: 40px;
+    }
+    .text1 {
+        margin-top: 5%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .start {
+        margin-top: 10vh;
+        font-size: 35px;
+    }
+    #viewDetails {
+        left: 6vw;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    body {
+        max-height: 768px;
+        max-width: 1024px;
+    }
+    .background1 {
+        position: absolute;
+        top: -1px;
+    }
+    .row2 img {
+        width: 155%;
+    }
+    .question {
+        margin-top: 0.1vw;
+    }
+    table,
+    th,
+    td {
+        padding-top: 0.1vh;
+        border: 3px solid white;
+        font-size: 25px;
+    }
+    .row15 {
+        font-size: 20px;
+    }
+    .row2 {
+        margin-top: -2vh;
+    }
+    .row3{
+        top: 35vh;
+    }
+    .header {
+        font-size: 4vw;
+    }
+    .text1 {
+        font-size: 2.5vw;
+        line-height: 30px;
+    }
+    .start {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        font-size: 25px;
+        margin-left: 15vw;
+        margin-top: 10vh;
+    }
+    .lolik {
+        margin-top: 6vh;
+    }
+    #welcomeScreen {
+    }
+    #viewDetails {
+        left: 5vw;
+    }
+    .ss1 {
+        padding-right: 5vw;
+    }
+}
+@media (min-width:414px) and (max-width:768px) {
+    body {
+        max-width: 768px;
+        max-height: 1024px;
+    }
+    table,
+    th,
+    td {
+        padding-top: 0.1vh;
+        border: 3px solid white;
+        font-size: 25px;
+    }
+    .row15 {
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .ss {
+        margin-left: 1vw;
+    }
+    .ss1 {
+        margin-top: 30vh;
+        margin-left: 1vw;
+    }
+    #your-box {
+        position: absolute;
+        margin-left: 1vw;
+        margin-top: -27vh;
+        width: 13vw;
+    }
+    #dealer-box {
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: 3vw;
+        width: 13vw;
+    }
+    .row2 img {
+        width: 180%;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+    .row3{
+        position: relative;
+        top: 47vh;
+        font-size: 50px;
+    }
+    .cards11 {
+        display: none;
+    }
+    .cards1 {
+        position: absolute;
+        margin-left: 70vw;
+        margin-top: -30vh;
+    }
+    .cards22 {
+        display: block;
+    }
+    #welcomeScreen {
+        flex-direction: column-reverse;
+        width: 100%;
+        /*height: 100%;*/
+    }
+    .start {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: 4.5vw;
+        width: 20vw;
+        margin-left: 35vw;
+        margin-top: 3vh;
+    }
+    .back {
+        display: none;
+    }
+    .back1 {
+        position: absolute;
+        display: block;
+        z-index: -999;
+        width: 100vw;
+        height: 100vh;
+    }
+    .btn {
+        padding: 0;
+        font-size: 3vw;
+        height: 7vh;
+    }
+
+    .text1 {
+        margin-top: 3%;
+        font-size: 5vw;
+        line-height: 4vw;
+    }
+    .lolik {
+        margin-left: 39px;
+        margin-top: 1vh;
+        width: 90vw;
+    }
+    .header {
+        font-size: 5vw;
+    }
+    .cards2 {
+        display: none;
+    }
+    .cards3 {
+        display: block;
+        margin-top: 3.5vh;
+    }
+    #viewDetails {
+        left: 5vw;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 5vw;
+    }
+}
+
+@media (min-width:0px) and (max-width:414px) {
+    #welcomeScreen {
+        flex-direction: column-reverse;
+        /*height: 105%;*/
+        margin-top: -2vh;
+    }
+    .question {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    table,
+    th,
+    td {
+        padding-top: 0.1vh;
+        border: 3px solid white;
+        font-size: 25px;
+    }
+    .row15 {
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .ss {
+        margin-left: 2vw;
+        width: 50vw;
+        margin-top: -2vh;
+    }
+    .ss1 {
+        margin-top: 28vh;
+        margin-left: 2vw;
+        width: 50vw;
+    }
+    #your-box {
+        position: absolute;
+        margin-left: 3vw;
+        margin-top: -25vh;
+        width: 13vw;
+    }
+    #dealer-box {
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        width: 13vw;
+    }
+    .row1 {
+        margin-top: 1vh;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .row2 {
+        flex-direction: column;
+        margin-top: -4vh;
+    }
+    .row2 img {
+        width: 210%;
+    }
+    .row3{
+        position: relative;
+        top: 33vh;
+        font-size: 50px;
+        margin-left: 15px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        padding: 0;
+        font-size: 5vw;
+        height: 7vh;
+        width: 100%;
+        margin: 5px;
+    }
+
+
+    .cards11 {
+        display: none;
+    }
+    .cards1 {
+        position: absolute;
+        margin-left: 69vw;
+        margin-top: -13vh;
+    }
+    .cards22 {
+        display: block;
+        margin-left: -10px;
+    }
+
+    .start {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        font-size: 7vw;
+        width: 35vw;
+        margin-left: 25vw;
+        margin-top: 5vh;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .back1 {
+        display: none;
+    }
+    .back2 {
+        display: block;
+        position: absolute;
+        top: -90px;
+        z-index: -999;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .text1 {
+        margin-top: 3%;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .lolik {
+        margin-left: 39px;
+        margin-top: 1vh;
+        width: 90vw;
+    }
+
+    .header {
+        font-size: 7vw;
+    }
+
+    .cards2 {
+        display: none;
+    }
+
+    .cards3 {
+        display: none;
+    }
+
+    .cards4 {
+        display: block;
+        margin-top: 7vh;
+    }
+    #viewDetails {
+        left: 5vw;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 5vw;
+    }
+}
