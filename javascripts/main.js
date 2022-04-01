@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 $(document).ready(function () {
     $('#start1').on('click', function () {
-        $('#welcomeScreen').toggle(1000)
+        $('#welcomeScreen').toggle(0)
     })
 })
 
